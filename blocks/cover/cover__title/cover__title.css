@@ -8,8 +8,15 @@
     text-align: center;
     color: #FFF;
     max-width: 560px;
-    max-height: 152px;
     margin: 0 auto;
-    padding: 245px 0 32px;
     z-index: 1;
+    padding: 32px;
+}
+
+@media screen and (max-width: 767px) {
+    .cover__title {
+        font-size: 38px;
+        line-height: 35px;
+        padding: 16px;
+    }  
 }
