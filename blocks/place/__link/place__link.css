@@ -9,8 +9,6 @@
     transition: opacity .5s ease;
 }
 
-@media (hover: hover) {
     .place__link:hover {
         opacity: .8;
     }
-}
