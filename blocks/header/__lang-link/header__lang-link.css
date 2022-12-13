@@ -10,11 +10,9 @@
     transition: opacity .5s linear;
 }
 
-@media (hover: hover) {
   .header__lang-link:hover {
     opacity: .8;
   }
-}
 
 @media screen and (max-width: 767px) {
     .header__lang-link {
