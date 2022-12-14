@@ -9,11 +9,15 @@
     max-width: 360px;
     margin: 0 auto;
     z-index: 1;
+    padding-top: 32px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 @media screen and (max-width: 767px) {
     .cover__subtitle {
         font-size: 14px;
         line-height: 16px;
+        padding: 16px 16px 0;
     }  
 }
